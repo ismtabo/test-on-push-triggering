@@ -1,7 +1,9 @@
-name: Ping event
+name: Ping Release event
 
 on:
   push:
+    branches:
+    - 'release/*'
 
 jobs:
   echo:
