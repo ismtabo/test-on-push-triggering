@@ -1,0 +1,15 @@
+name: Ping event
+
+on:
+  push:
+    branches:
+    - 'release/2.x'
+
+jobs:
+  echo:
+    runs_on: ubuntu
+    steps:
+    - name: Echo Hello World
+      run: |
+        echo Hello World
+
