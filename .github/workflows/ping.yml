@@ -8,7 +8,7 @@ on:
 
 jobs:
   echo:
-    runs_on: ubuntu
+    runs-on: ubuntu
     steps:
     - name: Echo Hello World
       run: |
