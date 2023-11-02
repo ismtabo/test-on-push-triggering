@@ -11,4 +11,4 @@ jobs:
     steps:
     - name: Echo Hello World
       run: |
-        echo "Hello World at ${{ github.ref_name }}"
+        echo "Hello World at ${{ github.ref_name }} from release branch"
