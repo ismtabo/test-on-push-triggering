@@ -1,0 +1,14 @@
+name: Ping event
+
+on:
+  push:
+    branches:
+    - 'release/*'
+
+jobs:
+  echo:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Echo Hello World
+      run: |
+        echo "Hello World at ${{ github.ref_name }}"
